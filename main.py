@@ -9,6 +9,8 @@ import sqlite3
 import json
 import datetime
 import pytz
+from typing import Optional
+
 
 # ---- DATABASE SETUP ----
 DB_PATH = "database.db"
